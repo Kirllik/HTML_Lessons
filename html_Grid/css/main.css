@@ -18,51 +18,6 @@ html {
 }
 
 
-body {
-  display: grid;
-
-  grid-template-areas:
-  "header header header"
-  "main sidebar-1 sidebar-2"
-  "footer footer footer";
-
-  grid-gap: 10px;
-  height: 100vh;
-  margin: 0;
-  grid-template-rows: 50px 1fr 100px;
-  grid-template-columns: 5fr 25% 25%;
-}
-
-#header {
-  padding: 20px;
-  background: gold;
-  grid-area: header;
-}
-
-#main {
-  padding: 20px;
-  background-color: aquamarine;
-  grid-area: main;
-}
-
-#sidebar-1, #sidebar-2 {
-  padding: 20px;
-  background-color: cornsilk;
-  grid-area: main;
-  grid-area: sidebar-1;
-}
-
-#sidebar-2 {
-  grid-area: sidebar-2;
-}
-
-
-#footer {
-  padding: 20px;
-  background-color: hotpink;
-  grid-area: footer;
-}
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
