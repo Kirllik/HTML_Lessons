@@ -19,7 +19,7 @@ html {
 
 
 body {
-  display: grid;
+  display: grid;   /* Подключение ГРЯД */
 
   grid-template-areas:
   "header header header"
